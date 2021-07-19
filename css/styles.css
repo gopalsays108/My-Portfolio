@@ -145,13 +145,21 @@
     font: normal 600 22px/30px var(--roboto);
 }
 .site-main .brand-area .experience-area .call-area{
-    padding-left: 13rem;
+    padding-left: 12rem;
+    clear: both;
+    display: inline-block;
+    overflow: visible;
+    white-space: nowrap;
+
+}
+.site-main .brand-area .experience-area .call-area .call-now{
+    font-size: 1.4rem;
 }
 /*End brand area*/
 
 /*Services Start here*/
 .site-main .services-area{
-    padding: 12rem 2rem;
+    padding: 5rem 2rem;
 }
 .site-main .services-area .services-title{
     padding: 0 14rem;
