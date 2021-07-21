@@ -61,3 +61,13 @@ p.para{
 .font-roboto{
     font-family: var(--roboto);
 }
+
+/*Remove outline around the button when clicked*/
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn.active {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
